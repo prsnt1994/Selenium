@@ -38,22 +38,10 @@ public class Main {
 
         driver.findElement(By.xpath("//*[@id=\"flightSearchForm.button.reSubmit\"]")).click();
 
-
-
         //to close an instance
         // driver.close();
 
         //to close all instances
         //driver.quit();
-
-        /*
-        Locators to identify objects in a browser
-        1.ID
-        2.ClassName
-        3.Name
-        4.LinkText
-        5.Xpath
-        6.css
-         */
     }
 }
